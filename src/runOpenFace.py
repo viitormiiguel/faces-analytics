@@ -13,13 +13,13 @@ def createFileVideo():
     for ent in entries:
 
         try:
-            if not os.path.exists('./output/'):
-                os.makedirs('./output/')
+            if not os.path.exists('./output/' + ent):
+                os.makedirs('./output/' + ent)
         except OSError:
             print('Error: Creating directory of data')
 
         exec1 = path + 'data\\video\\' + ent
-        exec2 = path + 'output\\'
+        exec2 = path + 'output\\' + ent
 
         comando = ' -f ' + '"' +  exec1 + '"'
 

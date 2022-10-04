@@ -63,6 +63,6 @@ def downloadFrames():
 
 if __name__ == "__main__":
 
-    # downloadYouTube('https://youtu.be/esfChb49_Rk', 'data/video/')
+    downloadYouTube('https://youtu.be/esfChb49_Rk', 'data/video/')
 
     downloadFrames()
