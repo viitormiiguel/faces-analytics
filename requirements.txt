@@ -2,3 +2,6 @@ numpy==1.18.5
 pandas==1.2.4
 pytube==12.1.0
 mediapipe==0.8.11
+moviepy==1.0.3
+youtube_dl==2021.12.17
+opencv-python==4.6.0.66
